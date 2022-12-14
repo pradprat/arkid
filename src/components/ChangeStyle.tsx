@@ -63,7 +63,7 @@ export const ChangeStyle: React.FC<ChangeStyleProps> = ({
     );
     const [styleGeneratedStep, setstyleGeneratedStep] = useState(11);
     const [imgDisplay, setimgDisplay] = useState("");
-    const [imgsNames, setimgsNames] = useState([]);
+    const [imgsNames, setimgsNames] = useState<any[]>([]);
     const styleList = (styleCategoriesData as any).find(
         (styleCat: any) => styleCat.type === styleCategorySelected
     ).style;
