@@ -1,5 +1,5 @@
 import React, { useLayoutEffect, useState } from "react";
-import "./ShareCreation.scss";
+import "./ShareCreation.less";
 
 interface ShareCreationProps {}
 

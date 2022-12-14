@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useLayoutEffect, useState } from "react";
-import "./Loading.scss";
+import "./Loading.less";
 
 interface LoadingProps {}
 

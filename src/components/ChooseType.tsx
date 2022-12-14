@@ -2,7 +2,7 @@ import { Button, Col, Modal, Row } from "antd";
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import background from "../assets/images//background/background2.png";
-import "./ChooseType.scss";
+import "./ChooseType.less";
 import Icon from "@ant-design/icons";
 import { ReactComponent as pushchair } from "../assets/images/pushchair.svg";
 import { ReactComponent as stroller } from "../assets/images/stroller.svg";

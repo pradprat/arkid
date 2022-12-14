@@ -1,5 +1,5 @@
 import React, { useLayoutEffect, useState } from "react";
-import "./Home.scss";
+import "./Home.less";
 import background from "../assets/images/rectangle.svg";
 import stroller from "../assets/images/start/stroller3.png";
 import { Button, Menu } from "antd";

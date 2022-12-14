@@ -1,5 +1,5 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
-import "./GenerateImage.scss";
+import "./GenerateImage.less";
 import { Button, Card, Col, Menu, Radio, Row, Slider } from "antd";
 import Icon from "@ant-design/icons";
 import { ReactComponent as pushchair } from "../assets/images/pushchair.svg";
@@ -35,15 +35,15 @@ export const GenerateImage: React.FC<GenerateImageProps> = ({
     const [inspirationDisplay, setinspirationDisplay] = useState(
         typeSelected + "_1"
     );
-    const [inspirationImages, setinspirationImages] = useState(new Array());
+    const [inspirationImages, setinspirationImages] = useState([]);
     const [loading, setloading] = useState(false);
     let tempimgsNames: string[] = [];
     // const [value, loading_firebase, error] = useDownloadURL(
     //     firebase.storage().ref("/")
     // );
-    const [imgsNames, setimgsNames] = useState(new Array());
+    const [imgsNames, setimgsNames] = useState([]);
     const [rand, setRand] = useState(1);
-    const [imgsDisplay, setimgsDisplay] = useState(new Array());
+    const [imgsDisplay, setimgsDisplay] = useState([]);
     // const storage = firebase.storage();
     // const storageRef = storage.ref();
 

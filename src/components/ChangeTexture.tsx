@@ -1,5 +1,5 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
-import "./ChangeTexture.scss";
+import "./ChangeTexture.less";
 import {
     Button,
     Card,

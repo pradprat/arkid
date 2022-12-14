@@ -1,6 +1,6 @@
 import { Steps } from "antd";
 import React, { useEffect, useLayoutEffect, useState } from "react";
-import "./Progress.scss";
+import "./Progress.less";
 import { Link, Redirect, useLocation, useHistory } from "react-router-dom";
 const { Step } = Steps;
 

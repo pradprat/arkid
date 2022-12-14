@@ -1,5 +1,5 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
-import "./Header.scss";
+import "./Header.less";
 import logo from "../assets/images/logo/niomata_logo_black1.png";
 import { Col, Menu, Row } from "antd";
 import { MenuOutlined } from "@ant-design/icons";

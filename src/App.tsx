@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./antd.less";
-import "./App.scss";
+import "./App.less";
 import { Header } from "./components/Header";
 import { GenerateImage } from "./components/GenerateImage";
 import { ChangeStyle } from "./components/ChangeStyle";

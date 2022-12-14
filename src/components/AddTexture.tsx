@@ -1,5 +1,5 @@
 import React, { useLayoutEffect, useState } from "react";
-import "./AddTexture.scss";
+import "./AddTexture.less";
 import { Button, Card, Col, Menu, Radio, Row, Slider, Tabs } from "antd";
 import Icon from "@ant-design/icons";
 import { ReactComponent as pushchair } from "../assets/images/pushchair.svg";
