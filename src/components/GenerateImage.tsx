@@ -41,7 +41,7 @@ export const GenerateImage: React.FC<GenerateImageProps> = ({
     // const [value, loading_firebase, error] = useDownloadURL(
     //     firebase.storage().ref("/")
     // );
-    const [imgsNames, setimgsNames] = useState([]);
+    const [imgsNames, setimgsNames] = useState<any[]>([]);
     const [rand, setRand] = useState(1);
     const [imgsDisplay, setimgsDisplay] = useState([]);
     // const storage = firebase.storage();
